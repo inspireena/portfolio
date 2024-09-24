@@ -163,7 +163,7 @@ const EnhancedInnovativePortfolio = () => {
         <div className="container mx-auto px-4 z-10 flex flex-col md:flex-row items-center justify-between">
           <div className="text-center md:text-left md:w-1/2">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
-              <span style={{ color: 'beige' }}>Hello I'm</span>  Reena Saini
+              <span style={{ color: 'beige' }}>Hello {`I'm`}</span>  Reena Saini
             </h1>
             <div className="text-xl md:text-2xl mb-8">
               <Typewriter
@@ -177,7 +177,7 @@ const EnhancedInnovativePortfolio = () => {
               />
             </div>
             <p className="text-lg mb-8 text-gray-300">
-              I'm a Frontend Developer with 3.5 years of experience specializing in JavaScript frameworks such as ReactJS, NextJs, and ExpressJs. My expertise lies in implementing high-quality, well-tested code with a strong understanding of MVC architectures.
+              {`I'm`} a Frontend Developer with 3.5 years of experience specializing in JavaScript frameworks such as ReactJS, NextJs, and ExpressJs. My expertise lies in implementing high-quality, well-tested code with a strong understanding of MVC architectures.
             </p>
             <div className="flex justify-center md:justify-start space-x-4">
               <a

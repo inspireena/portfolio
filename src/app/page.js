@@ -34,7 +34,7 @@ const experiences = [
     company: "Infocusp Innovations",
     location: "Pune",
     role: "Software Engineer-1",
-    period: "Dec 2024 – Present",
+    period: "Dec 2024 - Present",
     projects: [
       {
         name: "AI-Powered Conversational Assistant",
@@ -51,7 +51,7 @@ const experiences = [
     company: "Zycus",
     location: "Pune",
     role: "Software Engineer",
-    period: "July 2023 – Dec 2024",
+    period: "July 2023 - Dec 2024",
     projects: [
       {
         name: "LytHouse",
@@ -70,7 +70,7 @@ const experiences = [
     company: "Infyu Labs",
     location: "Gandhinagar",
     role: "Frontend Developer",
-    period: "April 2021 – July 2023",
+    period: "April 2021 - July 2023",
     projects: [
       {
         name: "InfyU Trades",
@@ -196,7 +196,7 @@ const EnhancedInnovativePortfolio = () => {
         <div className="container mx-auto px-4 z-10 flex flex-col md:flex-row items-center justify-between">
           <div className="text-center md:text-left md:w-1/2">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
-              <span style={{ color: 'beige' }}>Hello I'm</span>  Reena Saini
+              <span style={{ color: 'beige' }}>Hello I&apos;m</span> Reena Saini
             </h1>
             <div className="text-xl md:text-2xl mb-8">
               <Typewriter

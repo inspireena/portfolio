@@ -9,44 +9,76 @@ import confetti from 'canvas-confetti'
 const skills = [
   { name: "JavaScript", level: 95, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
   { name: "TypeScript", level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+
   { name: "React", level: 95, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
   { name: "Next.js", level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
   { name: "Redux", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" },
+  { name: "Context API", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+
   { name: "HTML5", level: 95, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
   { name: "CSS3", level: 95, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
   { name: "SASS", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" },
+
   { name: "Material UI", level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" },
   { name: "Tailwind CSS", level: 90, icon: "./tailwind-icon.svg" },
   { name: "Bootstrap", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" },
-  { name: "Jest", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" },
+  { name: "shadCN", level: 85, icon: "https://cdn.jsdelivr.net/npm/simple-icons/icons/shadcnui.svg"  },
+
+  { name: "Chart.js", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chartjs/chartjs-original.svg" },
+  { name: "D3.js", level: 75, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg" },
+
   { name: "GraphQL", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" },
+  { name: "REST APIs", level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" },
+  { name: "JWT", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" },
+
+  { name: "Node.js", level: 70, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+  { name: "Express.js", level: 65, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
+
+  { name: "Jest", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" },
+  { name: "Vitest", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitest/vitest-original.svg" },
+  { name: "Playwright", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg" },
+
   { name: "Webpack", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" },
   { name: "Vite", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" },
   { name: "Git", level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-  { name: "AWS", level: 75, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" },
+
+  { name: "AWS", level: 75, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
+
   { name: "MongoDB", level: 70, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
   { name: "MySQL", level: 70, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
   { name: "Redis", level: 65, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" }
 ]
 
 const experiences = [
-  {
-    company: "Infocusp Innovations",
-    location: "Pune",
-    role: "Software Engineer-1",
-    period: "Dec 2024 - Present",
-    projects: [
-      {
-        name: "AI-Powered Conversational Assistant",
-        achievements: [
-          "Contributed significantly to the development of an AI-powered conversational assistant, focusing on building a high-performance and resilient UI for real-time contextual responses.",
-          "Architected and set up a scalable monorepo using Next.js, TypeScript, ShadCN, and Tailwind CSS, significantly improving project structure and maintainability.",
-          "Developed and optimized core UI components, including a feature-rich data table with advanced filtering, ensuring efficient component composition and seamless user experience.",
-          "Collaborated with product managers to document UI requirements, translating them into scalable frontend architectures and ensuring alignment."
-        ]
-      }
-    ]
-  },
+{
+  company: "Infocusp Innovations",
+  location: "Pune",
+  role: "Software Engineer-1",
+  period: "Dec 2024 - Present",
+  projects: [
+    {
+      name: "SMASH Music - Artist Collaboration Platform",
+      achievements: [
+        "Designed and developed a scalable music streaming and artist collaboration platform using Next.js, React, and TypeScript, supporting artist onboarding, remix submissions, and real-time audio playback.",
+        "Architected a dual-flow frontend system with environment-driven configurations and separate AWS Cognito user pools, enabling independent artist and remix workflows.",
+        "Integrated multiple GraphQL endpoints and optimized API consumption strategies, improving data-fetching efficiency and reducing redundant network calls.",
+        "Engineered a custom network priority management system to prioritize critical audio streaming requests, significantly improving playback reliability under varying network conditions.",
+        "Implemented a multi-layer caching mechanism using in-memory cache, Cache Storage API, and IndexedDB with LRU eviction, reducing load times and enabling offline-first user experience.",
+        "Optimized media loading and rendering performance using Intersection Observer and lazy loading techniques, improving perceived performance and user engagement.",
+        "Collaborated closely with backend teams to streamline data flow and enhance API interactions for real-time features."
+      ]
+    },
+    {
+      name: "AI-Powered Conversational Assistant",
+      achievements: [
+        "Contributed significantly to the development of an AI-powered conversational assistant, focusing on building a high-performance and resilient UI for real-time contextual responses.",
+        "Architected and set up a scalable monorepo using Next.js, TypeScript, ShadCN, and Tailwind CSS, significantly improving project structure and maintainability.",
+        "Developed and optimized core UI components, including a feature-rich data table with advanced filtering, ensuring efficient component composition and seamless user experience.",
+        "Collaborated with product managers to document UI requirements, translating them into scalable frontend architectures and ensuring alignment."
+      ]
+    }
+  ]
+},
   {
     company: "Zycus",
     location: "Pune",
@@ -200,7 +232,7 @@ const EnhancedInnovativePortfolio = () => {
             </h1>
             <div className="text-xl md:text-2xl mb-8">
               <Typewriter
-                words={['Senior Frontend Developer', 'React Specialist', 'UI/UX Expert', 'TypeScript Developer']}
+                words={['Frontend Developer', 'React Specialist', 'UI/UX Expert', 'TypeScript Developer']}
                 loop={0}
                 cursor
                 cursorStyle='|'
@@ -210,7 +242,7 @@ const EnhancedInnovativePortfolio = () => {
               />
             </div>
             <p className="text-lg mb-8 text-gray-300">
-              Senior Frontend Developer with 4 years of experience specializing in building high-performance, resilient UIs using ReactJS, Next.js, and TypeScript. Proven track record in designing and implementing scalable, reusable front-end architectures that prioritize seamless user experiences and efficient component composition. Adept at driving engineering excellence through robust test automation strategies, comprehensive code reviews, and adherence to coding standards.
+              Frontend Developer with 4.5+ years of experience specializing in building high-performance, resilient UIs using ReactJS, Next.js, and TypeScript. Proven track record in designing and implementing scalable, reusable front-end architectures that prioritize seamless user experiences and efficient component composition. Adept at driving engineering excellence through robust test automation strategies, comprehensive code reviews, and adherence to coding standards.
             </p>
             <div className="flex justify-center md:justify-start space-x-4">
               <a
@@ -221,7 +253,7 @@ const EnhancedInnovativePortfolio = () => {
                 Hire Me
               </a>
               <a
-                href="https://drive.usercontent.google.com/download?id=1XCYIMoMObW1BuYe1_3j5rTvTpj_8D6P-&export=download&authuser=2&confirm=t&uuid=04bbec40-c2e5-4869-8c02-7c028fb0e1db&at=AO7h07dtxYt-x-vVoZm9lE9XvoDX:1727085135025"
+                href="https://drive.usercontent.google.com/uc?id=1znrzCkXReWKg0YCCQ9NvR1Y2X1CNkiKY&authuser=1&export=download"
                 download
                 className="bg-transparent border-2 border-white text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 hover:bg-white hover:text-black"
               >
@@ -256,7 +288,7 @@ const EnhancedInnovativePortfolio = () => {
           <h2 className="text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
             Skills
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-6 gap-6">
             {skills.map((skill, index) => (
               <div
                 key={skill.name}
@@ -333,7 +365,7 @@ const EnhancedInnovativePortfolio = () => {
         </div>
       </section>
 
-      <section id="achievements" className="min-h-screen flex items-center justify-center py-20 relative overflow-hidden">
+      {/* <section id="achievements" className="min-h-screen flex items-center justify-center py-20 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-tl from-purple-900 via-black to-pink-900 opacity-50" />
           <div className="absolute inset-0 bg-[url('./circuit-board.svg')] opacity-10" />
@@ -353,7 +385,7 @@ const EnhancedInnovativePortfolio = () => {
             </ul>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="contact" className="min-h-screen flex items-center justify-center py-20 relative overflow-hidden">
         <div className="absolute inset-0 z-0">

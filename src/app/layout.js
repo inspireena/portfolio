@@ -13,9 +13,9 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-title: "Reena Saini | Frontend Engineer | React, Next.js, TypeScript",
+title: "Reena Saini | Full Stack Engineer | Frontend Engineer | React, Next.js, TypeScript",
 description:
-  "Frontend Engineer with 4.5+ years of experience building scalable and high-performance web applications. Expertise in React, Next.js, TypeScript, UI architecture, and performance optimization, with experience in GraphQL, AWS, and modern full-stack development.",
+  "Full Stack Engineer and Frontend Engineer with 5+ years of experience building scalable, high-performance web applications. Expertise in React.js, Next.js, TypeScript, Node.js, Python, GraphQL, AWS, performance optimization, CI/CD automation, and AI-driven interfaces.",
 };
 
 export default function RootLayout({ children }) {

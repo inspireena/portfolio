@@ -19,9 +19,9 @@ const skills = [
   { name: "Redux", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" },
   { name: "Context API", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
   { name: "React Hooks", level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-
   { name: "Tailwind CSS", level: 90, icon: "./tailwind-icon.svg" },
   { name: "shadcn/ui", level: 85, icon: "https://cdn.jsdelivr.net/npm/simple-icons/icons/shadcnui.svg" },
+  { name: "Storybook", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" },
   { name: "Material UI", level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" },
   { name: "Bootstrap", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" },
 
@@ -29,39 +29,28 @@ const skills = [
   { name: "Express.js", level: 75, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
   { name: "REST APIs", level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" },
   { name: "GraphQL", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" },
+  { name: "Apollo Client", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apollographql/apollographql-original.svg" },
   { name: "JWT", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" },
   { name: "WebSockets", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" },
   { name: "Socket.IO", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" },
+  { name: "MongoDB", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
 
-  { name: "Jest", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" },
-  { name: "Vitest", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitest/vitest-original.svg" },
-  { name: "Playwright", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg" },
   { name: "TDD", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jasmine/jasmine-original.svg" },
+  { name: "Jest", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" },
+  { name: "React Testing Library", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+  { name: "Playwright", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg" },
 
   { name: "Git", level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
   { name: "GitHub", level: 90, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
   { name: "CI/CD", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" },
-  { name: "Jenkins", level: 75, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" },
-  { name: "Docker", level: 75, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
-  { name: "Kubernetes", level: 65, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" },
-
   { name: "AWS", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
-  { name: "GCP", level: 75, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" },
   { name: "Azure DevOps", level: 70, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
-  { name: "Netlify", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg" },
   { name: "Webpack", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" },
-  { name: "Vite", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" },
-  { name: "Babel", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg" },
-  { name: "NPM/PNPM", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" },
+  { name: "Turborepo", level: 80, icon: "https://cdn.jsdelivr.net/npm/simple-icons/icons/turborepo.svg" },
+  { name: "PNPM", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" },
 
-  { name: "MongoDB", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
-  { name: "MySQL", level: 75, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-  { name: "Redis", level: 75, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" },
-  { name: "IndexedDB", level: 80, icon: "https://cdn.jsdelivr.net/npm/simple-icons/icons/databricks.svg" },
-
-  { name: "Postman", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
   { name: "JIRA", level: 85, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" },
-  { name: "Figma", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" }
+  { name: "Figma", level: 80, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
 ]
 
 const experiences = [
@@ -72,27 +61,28 @@ const experiences = [
     period: "Dec 2024 – Present",
     projects: [
       {
-        name: "Generative UI – TMS (Next.js, MongoDB, Google Gemini, MCP, Google OAuth)",
+        name: "CuspMoney – Fintech Web Platform (Next.js, TypeScript, Turborepo, Tailwind CSS, Radix UI, Storybook, Playwright)",
         achievements: [
-          "Architected an AI-driven, scalable distributed Ticket Management System with a Gemini-powered chat interface; engineered the full-stack platform using Next.js, MongoDB, Google OAuth, and a custom MCP server for real-time tool calling against live data.",
-          "Designed drag-and-drop Kanban workflows with optimistic UI updates, improving task throughput and real-time responsiveness."
+          "Co-architected a Turborepo monorepo with pnpm workspaces hosting two isolated apps (main Next.js web app and Storybook) with shared ESLint, Tailwind, and TypeScript config packages, reducing repeated config setup across teams and enabling independent deployments.",
+          "Contributed to a shared component library using React, Radix UI, and Tailwind CSS with Storybook documentation, giving the team an isolated development environment and consistent design system across the product.",
+          "Established an E2E testing baseline with Playwright, covering critical user flows and achieving ~30% coverage from scratch."
         ]
       },
       {
-        name: "SMASH Music – Artist Collaboration Platform (Next.js 15, React 19, TypeScript, AWS Cognito, GraphQL, Python)",
+        name: "SMASH Music – Artist Collaboration Platform (Next.js 15, React 19, TypeScript, GraphQL, Apollo Client, AWS Cognito, S3)",
         achievements: [
-          "Built a scalable music streaming platform serving thousands of artists, supporting onboarding, remix submissions, and high-load real-time audio playback using Next.js 15, React 19, and TypeScript.",
-          "Architected a dual-flow authentication system using AWS Cognito user pools with multiple GraphQL endpoints, enabling secure, scalable user integrations.",
-          "Engineered a network priority system for critical streaming REST API requests, reducing playback failures under high-concurrency conditions through performance troubleshooting and targeted optimisation.",
-          "Implemented multi-layer caching (in-memory, Cache Storage API, IndexedDB with LRU eviction), reducing load times by up to 40% and enabling offline-first usage.",
-          "Authored Python automation scripts for CI/CD release workflows, GraphQL schema validation, and i18n consistency checks, improving release reliability across AWS (EC2, S3, Amplify)."
+          "Consolidated two separate product codebases into a single Next.js 15 codebase to support a planned product merge, isolating deployments via build-mode flags, separate AWS Cognito user pools, and route-level access control via a custom AppGate component.",
+          "Eliminated redundant re-renders on static playback controls using a split-context React architecture, separating high-frequency progress updates from stable playback state.",
+          "Built a custom Network Priority Manager with a request queue that reserved browser connection slots for audio and cancelled lower-priority requests via AbortController under high-concurrency conditions.",
+          "Reduced image load times by ~40% using a three-layer cache (in-memory LRU, Cache Storage API, IndexedDB) backed by a Service Worker for offline-first media access.",
+          "Wrote two Python CLI scripts for release validation: one parsing GraphQL queries against introspection schema to catch unknown fields, and one checking i18n key consistency across EN/ES/FR locale files."
         ]
       },
       {
-        name: "ASK71 – AI-Powered Conversational Assistant (Next.js, TypeScript, shadcn/ui, Tailwind CSS)",
+        name: "Other Contributions",
         achievements: [
-          "Developed scalable frontend features using Next.js and TypeScript, translating business requirements into technical designs and user stories; built extensible component framework improving development velocity and cross-browser compatibility.",
-          "Architected a monorepo with shadcn/ui and Tailwind CSS, improving maintainability and cross-team collaboration."
+          "Built a reusable configurable data table component adopted across multiple internal product views.",
+          "Contributed to a custom MCP server enabling natural language task creation via Google Gemini and MongoDB."
         ]
       }
     ]
@@ -106,9 +96,10 @@ const experiences = [
       {
         name: "LytHouse – Enterprise Analytics Platform (React.js, Material UI, REST APIs, Redux)",
         achievements: [
-          "Built scalable React.js and Material UI modules for enterprise analytics workflows within a team of 6–10 engineers, ensuring cross-browser compatibility, responsive design, and accessibility-first UI standards.",
-          "Led refactoring of the Initiatives Module using design patterns and software quality assurance practices; translated business requirements into user stories for the Goals Module with seamless REST API integrations and effective state management.",
-          "Strengthened application security through RBAC, route authorisation, and security policies; improved user engagement via performance troubleshooting, defect management, and UX enhancements."
+          "Engineered UI modules for the Metrics Module within a team of 8–10 engineers, reducing bounce rate by ~15% through component-level caching and performance optimization.",
+          "Reduced module load time by ~25% by refactoring the Initiatives Module using functional programming patterns and design principles.",
+          "Contributed to RBAC and route whitelisting across 10+ protected routes, improving application security across the platform.",
+          "Contributed to goal tracking features for the Goals Module using Redux state management and REST API integration across 3+ workflow types."
         ]
       }
     ]
@@ -120,23 +111,23 @@ const experiences = [
     period: "April 2021 – July 2023",
     projects: [
       {
-        name: "InfyU Trades",
+        name: "InfyU Trades (React.js, Node.js, Jest, Netlify, CI/CD)",
         achievements: [
-          "Delivered dashboard solutions using ReactJS, Node.js, TDD, Netlify, CI/CD, Jest, and Playwright."
+          "Developed role-based seller and buyer dashboards for a B2B bulk vegetable trading platform supporting price negotiation workflows between wholesale buyers and sellers.",
+          "Modified and extended Node.js REST APIs to support trading features, handling both frontend and backend responsibilities within a 4-5 person startup team."
         ]
       },
       {
-        name: "Traceability & Conveyer",
+        name: "Traceability & Conveyor (React.js, MapBox SDK)",
         achievements: [
-          "Built reporting modules, QR workflows, dashboards, and MapBox integrations for enterprise operations."
+          "Built a real-time vehicle tracking interface using MapBox SDK to monitor produce logistics across warehouse operations.",
+          "Developed a conveyor belt monitoring dashboard displaying live quality scans (fresh vs. ruined percentage per batch) for a hardware-integrated detection system on warehouse conveyor belts."
         ]
       },
       {
         name: "Streamer",
         achievements: [
-          "Developed a real-time application using Socket.IO, Agora SDK, and i18n for multilingual interactions.",
-          "Optimized Webpack pipelines and deployments, improving performance, SEO, and responsiveness using GCP and Azure DevOps.",
-          "Participated in code reviews, coding standards, and defect management to improve sprint quality."
+          "Built a one-to-many live game streaming app using Agora SDK and Socket.IO for real-time viewer interactions."
         ]
       }
     ]
@@ -246,7 +237,7 @@ const EnhancedInnovativePortfolio = () => {
             </h1>
             <div className="text-xl md:text-2xl mb-8">
               <Typewriter
-                words={['Full Stack Engineer', 'Frontend Engineer', 'React Specialist', 'Next.js Developer', 'TypeScript Developer']}
+                words={['Frontend Engineer', 'React Specialist', 'Next.js Developer', 'TypeScript Developer', 'Full Stack Engineer']}
                 loop={0}
                 cursor
                 cursorStyle='|'
@@ -256,7 +247,7 @@ const EnhancedInnovativePortfolio = () => {
               />
             </div>
             <p className="text-lg mb-8 text-gray-300">
-              Full Stack Engineer with 5+ years of experience specializing in scalable frontend architecture using React.js, Next.js, TypeScript, Node.js, and Python. Proven track record of delivering end-to-end features, from responsive UI systems and API integrations to performance optimization, CI/CD automation, and AI-driven interfaces across product and enterprise environments.
+              Frontend Engineer with 5+ years of experience building scalable, performant web applications using React.js, Next.js, and TypeScript. Skilled in performance optimization, component architecture, and release automation with backend exposure across Node.js, GraphQL, and AWS. Open to Frontend and Fullstack roles.
             </p>
             <div className="flex justify-center md:justify-start space-x-4">
               <a
@@ -267,7 +258,7 @@ const EnhancedInnovativePortfolio = () => {
                 Hire Me
               </a>
               <a
-                href="https://drive.usercontent.google.com/download?id=1koZ_FQlYA5ak864rTKv_xSH9u8axw_-f&export=download"
+                href="https://drive.usercontent.google.com/uc?id=1kWMKn2aY1ctolOAnFwnbt0YCERfdW5R_&authuser=1&export=download"
                 download
                 className="bg-transparent border-2 border-white text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 hover:bg-white hover:text-black"
               >
